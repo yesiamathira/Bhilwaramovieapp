@@ -1,14 +1,31 @@
+
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>
-      Ionic Blank
+       Welcome!
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
+
+
+
+
+
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+<ion-card class="welcome-card">
+  <!-- <ion-img class="one"src="/assets/movie9.jpg"></ion-img> -->
+  <ion-card-header>
+    <ion-card-subtitle>  </ion-card-subtitle>
+    <ion-card-title>What's On <br>All Movies,At all locations!</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <p id="one">Click to <a routerLink='/login'>
+      login</a> </p>
+  </ion-card-content>
+  <!-- <ion-img class="one" src="/assets/movie1.jpg" ></ion-img> -->
+</ion-card>
 </ion-content>
