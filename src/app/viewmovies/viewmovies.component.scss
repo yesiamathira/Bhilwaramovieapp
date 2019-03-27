@@ -1,7 +1,13 @@
+
+ion-title{
+    background-color: #3880ff;
+    color:whitesmoke;
+}
+
 .one{
     margin-left: 10px;
     margin-top: 10px;
-    color:  blue;
+    color: whitesmoke;
 }
 .two{
     width:300%;
@@ -12,6 +18,11 @@
     height:50%;
     float:left;
     margin-left: 0px;
+   
+}
+
+.four{
+    color: antiquewhite;
 }
 // .header {
 //     background-color: white;
@@ -40,3 +51,6 @@
 //   color:red;
 //   background-color: yellowgreen;
 // }
+ion-card {
+    background-color:#3880ff;
+}

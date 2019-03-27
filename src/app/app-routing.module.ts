@@ -9,7 +9,7 @@ import {ViewaddonsComponent} from './viewaddons/viewaddons.component';
 import {ViewmoviesComponent} from './viewmovies/viewmovies.component';
 import {ViewoffersComponent} from './viewoffers/viewoffers.component';
 const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
